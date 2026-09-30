@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre as linguagens de programação</title>
+    <style>
+        body {
+            font-size: 1rem;
+            line-height: 1.5;
+            background-color: aliceblue;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+
+            li {
+                background-color: #6b6bf8;
+                color: aliceblue;
+                border: 2px solid #000000;
+                padding: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+
+        b {
+            font-size: 1.125rem;
+            text-decoration: underline;
+        }
+
+        .contato {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #000000;
+            border-radius: 20px;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        button {
+            color: white;
+            background-color: red;
+            border: 2px solid #000000;
+        }
+        footer {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Curiosidades sobre as linguagens de programação</h1>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#python">PYTHON</a></li>
+                        <li><a href="#javascript">JAVASCRIPT</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="python">
+            <h2>PYTHON</h2>
+            <ol>
+                <li>
+                    <b>Inspirada na comédia:</b> Foi batizada em homenagem ao grupo de humor britânico Monty Python. O
+                    criador, Guido van Rossum, lia os roteiros do programa Monty Python's Flying Circus enquanto
+                    desenvolvia
+                    a linguagem.
+                </li>
+                <li>
+                    <b>Existe um manifesto oculto:</b> Se você digitar import this em qualquer terminal Python, um poema
+                    chamado "The Zen of Python" será exibido. Ele contém as 19 filosofias de design da linguagem, como
+                    "Bonito é melhor que feio".
+                </li>
+                <li>
+                    <b>Antigravidade embutida:</b> Outro "Easter Egg" famoso: se você digitar import antigravity no
+                    terminal, o Python abrirá automaticamente o navegador em uma tirinha clássica do site XKCD sobre a
+                    facilidade de programar na linguagem.
+                </li>
+                <li>
+                    <b>Sem chaves:</b> Ao contrário da maioria das linguagens modernas, o Python não usa chaves {} para
+                    definir blocos de código. Ele usa estritamente a indentação (espaços em branco), tornando o código
+                    visualmente limpo e obrigando o programador a ser organizado.
+                </li>
+                <li>
+                    <b>Linguagem espacial:</b> O Python é amplamente utilizado pela NASA e pela SpaceX para análise de
+                    dados, simulações de órbitas e automação de sistemas de solo.
+                </li>
+            </ol>
+        </section>
+
+        <section id="javascript">
+            <h2>JAVASCRIPT</h2>
+            <ol>
+                <li><b>Criada em tempo recorde:</b> Foi desenvolvida em apenas 10 dias em maio de 1995 por Brendan Eich.
+                    Ele
+                    precisava pressas criar uma linguagem de script para o navegador Netscape Navigator.</li>
+                <li><b>Estratégia de marketing: </b> O nome original era Mocha, depois mudou para LiveScript e,
+                    finalmente,
+                    JavaScript. A mudança final foi uma jogada de marketing para pegar carona no enorme sucesso que a
+                    linguagem Java fazia na época, embora as duas não tenham nenhuma relação técnica.</li>
+                <li><b>O erro histórico que virou regra:</b> No JavaScript, se você rodar o comando typeof null, o
+                    resultado
+                    retornado será "object". Isso é um bug do motor original da linguagem que nunca pôde ser corrigido
+                    porque quebraria milhões de sites existentes no mundo.</li>
+                <li><b>Padronização oficial:</b> O JavaScript "puro" e padronizado não se chama JavaScript, mas sim
+                    ECMAScript. O nome JavaScript é uma marca registrada que hoje pertence à Oracle.</li>
+                <li><b>Domínio absoluto na web:</b> É a única linguagem de programação que roda nativamente em
+                    praticamente
+                    todos os navegadores web do planeta, o que a torna a linguagem mais popular do ecossistema
+                    front-end.
+                </li>
+            </ol>
+        </section>
+
+        <section id="contato">
+            <form action="#" method="post">
+                <div class="contato">
+
+                    <p>E você , tem alguma curiosidade sobre alguma linguagem de programação?<br> <mark>Manda pra
+                            gente</mark></p>
+                    <label for="nome">NOME:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite o seu nome.">
+
+                    <label for="mensagem"> Mande a sua curiosidade:</label>
+                    <textarea name="mensagem" id="mensagem" rows="4" cols="20" required
+                        placeholder="Escreva a sua curiosidade"></textarea>
+
+                    <button type="submit">ENVIAR</button>
+
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><small>&copy; 2026 - Desenvolvido por Guilherme Capelini. Todos os direitos reservados.</small></p>
+    </footer>
+</body>
+
+</html>
