@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --cor-fundo-1: #0f766e;
+    --cor-fundo-2: #134e4a;
+    --cor-card: #ffffff;
+    --cor-texto: #1f2937;
+    --cor-texto-suave: #6b7280;
+    --cor-destaque: #14b8a6;
+    --cor-destaque-escura: #0d9488;
+    --cor-borda: #e5e7eb;
+    --cor-resultado: #f0fdfa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-texto);
+    background: linear-gradient(135deg, var(--cor-fundo-1), var(--cor-fundo-2));
+}
+
+.card {
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 32px;
+    text-align: center;
+    background-color: var(--cor-card);
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    margin: 0 0 28px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--cor-fundo-2);
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    text-align: left;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--cor-texto-suave);
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-borda);
+    border-radius: 12px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: var(--cor-destaque);
+    box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.2);
+}
+
+.resultado {
+    padding: 16px;
+    text-align: center;
+    background-color: var(--cor-resultado);
+    border-left: 5px solid var(--cor-destaque);
+    border-radius: 12px;
+}
+
+.resultado:has(#resultado:empty) {
+    display: none;
+}
+
+.resultado p {
+    margin: 4px 0;
+}
+
+#resultado {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--cor-destaque-escura);
+}
+
+#classificacao {
+    font-size: 0.95rem;
+    color: var(--cor-texto-suave);
+}
+
+button {
+    margin-top: 8px;
+    padding: 14px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: var(--cor-destaque);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background-color: var(--cor-destaque-escura);
+}
+
+button:active {
+    transform: scale(0.98);
+}
