@@ -1,7 +1,0 @@
-function adicionarAluno() {
-    
-}
-
-function verResultado() {
-
-}
