@@ -23,6 +23,9 @@ Primeiros scripts em JavaScript ligados a páginas HTML: variáveis, entrada de 
 - [exemplo-03](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/exemplo-03/): calculadora de notas que calcula a média de três notas com `parseFloat()`, diz se o aluno foi aprovado ou reprovado com `if` / `else` e monta o resultado com template strings e `innerHTML`.
 - [atividade-04](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/atividade-04/): calculadora de IMC com classificação (abaixo do peso, normal, sobrepeso e obesidade) usando `if` / `else if`, e visual em card com gradiente e variáveis CSS.
 
+### Módulo 05 – Git e GitHub
+Módulo dedicado a aprender a usar o Git e o GitHub para versionar e publicar os projetos. Como o foco foi praticar os comandos e o fluxo de trabalho, e não criar páginas, este módulo não tem uma pasta com atividades.
+
 ## Como executar
 
 Não é preciso instalar nada: abra o arquivo `index.html` da atividade no navegador (ou use a extensão Live Server do VS Code).
