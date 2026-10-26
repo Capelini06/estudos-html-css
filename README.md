@@ -16,15 +16,22 @@ Página sobre curiosidades das linguagens de programação, montada com as tags 
 Página inicial de um portal de notícias fictício ("g2"), com cabeçalho fixo (`position: sticky`), menu de categorias, campo de busca, notícia principal, cards de notícias, "Mais Lidas", previsão do tempo e rodapé.
 - [atividade-03](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-03/atividade-03/): CSS em arquivo separado (`style.css`) com variáveis em `:root`, Flexbox, CSS Grid (`grid-template-columns` e `repeat(auto-fit, minmax())`), seletores aninhados, efeitos de `hover` com `transition`, Google Fonts, ícones do Material Symbols e layout responsivo com `@media`.
 
-### [Módulo 04](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/) – Introdução ao JavaScript
+### [Módulo 04](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-04/) – Introdução ao JavaScript
 Primeiros scripts em JavaScript ligados a páginas HTML: variáveis, entrada de dados, cálculos, condicionais e exibição do resultado na própria página.
-- [exemplo-01](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/exemplo-01/): tipos de variáveis (`const`, `let`, `null`, `undefined` e booleano) e calculadora de gorjeta com `prompt()` e `alert()`.
-- [exemplo-02](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/exemplo-02/): calculadora de descontos que lê os campos com `document.getElementById()` e mostra o valor final com `textContent`.
-- [exemplo-03](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/exemplo-03/): calculadora de notas que calcula a média de três notas com `parseFloat()`, diz se o aluno foi aprovado ou reprovado com `if` / `else` e monta o resultado com template strings e `innerHTML`.
-- [atividade-04](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-4/atividade-04/): calculadora de IMC com classificação (abaixo do peso, normal, sobrepeso e obesidade) usando `if` / `else if`, e visual em card com gradiente e variáveis CSS.
+- [exemplo-01](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-04/exemplo-01/): tipos de variáveis (`const`, `let`, `null`, `undefined` e booleano) e calculadora de gorjeta com `prompt()` e `alert()`.
+- [exemplo-02](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-04/exemplo-02/): calculadora de descontos que lê os campos com `document.getElementById()` e mostra o valor final com `textContent`.
+- [exemplo-03](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-04/exemplo-03/): calculadora de notas que calcula a média de três notas com `parseFloat()`, diz se o aluno foi aprovado ou reprovado com `if` / `else` e monta o resultado com template strings e `innerHTML`.
+- [atividade-04](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-04/atividade-04/): calculadora de IMC com classificação (abaixo do peso, normal, sobrepeso e obesidade) usando `if` / `else if`, e visual em card com gradiente e variáveis CSS.
 
 ### Módulo 05 – Git e GitHub
 Módulo dedicado a aprender a usar o Git e o GitHub para versionar e publicar os projetos. Como o foco foi praticar os comandos e o fluxo de trabalho, e não criar páginas, este módulo não tem uma pasta com atividades.
+
+### [Módulo 06](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-06/) – Funções, arrays e laços de repetição
+Scripts que usam funções chamadas por botões (`onclick`), operações com `Math`, arrays, laços `for` e validação das entradas antes de processar os dados.
+- [exemplo-01](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-06/exemplo-01/): conversor da duração de um filme de minutos para horas e minutos, com `Math.floor()` e o operador de resto (`%`).
+- [exercicio-01](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-06/exercicio-01/): "Maratona de Filmes", que percorre dois arrays (filmes e durações) com `for`, classifica cada filme como longo ou pequeno, soma o tempo total e encontra o filme mais longo.
+- [exercicio-02](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-06/exercicio-02/): "Diário de Classe", que cadastra alunos com `push()` em arrays, valida nome, notas (0 a 10) e frequência (0 a 100%), limpa o formulário com `reset()` e mostra a situação de cada aluno (aprovado, reprovado por nota, por frequência ou nos dois).
+- [atividade-06](EBAC-Desenvolvimento%20Front-end%20do%20Zero%20ao%20Pro/modulo-06/atividade-06/): jogo "Acerte a senha", em que o número secreto é sorteado com `Math.random()` entre 1 e 100 e o jogador tem 7 tentativas, recebendo dicas de "maior" ou "menor" a cada palpite.
 
 ## Como executar
 
